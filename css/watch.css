@@ -1,0 +1,69 @@
+.dropdown-item:hover{
+color: white  !important;
+background-color: orangered !important;
+}
+.card:hover {
+    transform: translateY(0%);
+}
+.watch-page .watch-icons{
+    position: absolute;
+    bottom: 5px;
+    right: 20;
+}
+.watch-icons i:hover{
+    cursor: pointer;
+}
+.watch-page #more{
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.card-inner{
+    display:none;
+}
+.public-comments .card .btn{
+    color: white !important;
+    background-color: orangered !important;
+    border-color: orangered !important;
+}
+.public-comments .card .btn:hover{
+    background-color: rgb(221, 72, 18)  !important;
+}
+time{
+    left:24px !important;
+
+}
+.watch-page .fa-play {
+    right: 46% !important;
+}
+@media(min-width:992px){
+time{
+    font-size: 13px;
+}
+.fa-play{
+    font-size:20px !important;
+}
+}
+@media(max-width:991px){
+    #myBtn{
+        margin-bottom: 60px !important;
+    }
+    .card-block{
+        margin-top: 10px; 
+     }
+}
+@media(min-width:992px){
+    .card .card-title {
+      
+            height: 50px;
+            overflow: hidden;
+        }
+    
+}
+
+@media(max-widtn:570px){
+    .replay-time{
+        font-size: 10px;
+    }
+}
